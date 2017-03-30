@@ -264,7 +264,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 	if (typeof module != "undefined" && module.exports) {
 		module.exports = context[name];
 	} else if (typeof define == "function" && define.amd) {
-		define(function $AMD$() {
+		define('vimeo', function $AMD$() {
 			return context[name];
 		});
 	}
